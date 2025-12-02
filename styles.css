@@ -1,0 +1,25 @@
+/* styles.css */
+
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: center;
+                overflow: hidden;
+                background-color: transparent;
+            }
+            nav ul li {
+                float: left;
+            }
+            nav ul li a {
+                display: block;
+                color: blue;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            nav ul li a:hover {
+                background-color: transparent;
+                color: crimson;
+                text-decoration: none;
+            }
