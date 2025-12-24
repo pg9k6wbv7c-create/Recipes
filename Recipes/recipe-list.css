@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.recipe-list {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:darkgray;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto;
+}
+h2 {
+    font-size: 22px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 5px 5px 10px;
+}
+.link-content {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:darkgray;
+    padding: 10px;
+    max-width: 50%;
+    max-height: auto;
+}

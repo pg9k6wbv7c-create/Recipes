@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denzik and FamilyRecipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="recipe-list.css">
+    <link rel="stylesheet" href="iframe.css">
+    <link rel="stylesheet" href="links.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+<body>
+    <header class="container">
+            <img class="image" src="file:///Users/chrisdenzik/HTML/self-pic.jpg" alt="Picture of Chris Denzik">
+            <h1>Denzik and Family Recipes</h1>
+    </header>
+ <div class="flex-container">
+    <div class="recipe-list">
+        <h2 class="heading">Click on a recipe to view</h2>
+        <ul>
+            <li class="recipe"><a href="#" onclick="changeIframeSrc('file:///Users/chrisdenzik/HTML/Recipes/Caramels.html'); return false;">Caramels</a></li>
+            <li class="recipe"><a href="#" onclick="changeIframeSrc('file:///Users/chrisdenzik/HTML/Recipes/Baklava.html'); return false;">Baklava</a></li>
+            <li class="recipe"><a href="#" onclick="changeIframeSrc('file:///Users/chrisdenzik/HTML/Recipes/Greenchilestew.html'); return false;">Green Chile Stew</a></li>
+            <li class="recipe"><a href="#" onclick="changeIframeSrc('file:///Users/chrisdenzik/HTML/Recipes/Beefjerky.html'); return false;">Beef Jerky</a></li>
+            <li class="recipe"><a href="#" onclick="changeIframeSrc('file:///Users/chrisdenzik/HTML/Recipes/bigmacsauce.html'); return false;">Big Mac Sauce</a></li>
+            <li class="recipe"><a href="#" onclick="changeIframeSrc('file:///Users/chrisdenzik/HTML/Recipes/chickensalad.html'); return false;">Chicken Salad</a></li>
+            <li class="recipe"><a href="#" onclick="changeIframeSrc('file:///Users/chrisdenzik/HTML/Recipes/creamyjalapenodip.html'); return false;">Creamy Jalapeño Dip</a></li>
+            <li class="recipe"><a href="#" onclick="changeIframeSrc('file:///Users/chrisdenzik/HTML/Recipes/guacamole.html'); return false;">Guacamole</a></li>
+            <li class="recipe"><a href="#" onclick="changeIframeSrc('file:///Users/chrisdenzik/HTML/Recipes/picodegallo.html'); return false;">Pico de Gallo</a></li>
+            <script src="script.js"></script>
+        </ul>
+    </div>
+    <div class="iframe-container">
+        <iframe id="content-iframe" src="" style="width: 700px; height: 500px;">Your browser does not support iframes.</iframe>
+    </div>
+        <div class="link-content">
+            <h2 class="heading2">Favorite Links</h2>
+            <ul class="link-list">
+                <li class="link-item"><a href="https://www.allrecipes.com/">All Recipes</a></li>
+                <li class="link-item"><a href="https://www.foodnetwork.com/">Food Network</a></li>
+                <li class="link-item"><a href="https://www.seriouseats.com/">Serious Eats</a></li>
+                <li class="link-item"><a href="https://www.bonappetit.com/">Bon Appetit</a></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>If you would like to contribute a recipe, let me know and I'll add it!</p>
+    </footer>
+</body>
+</html>

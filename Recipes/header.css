@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    max-width: 90%;
+    margin: 20px auto auto 20px;
+    padding: 10px;
+}
+img {
+    width: 100px;
+    height: auto;
+    margin: auto auto auto 60px;
+}
+h1 {
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    margin: auto;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    padding: 32px 40px;
+}
